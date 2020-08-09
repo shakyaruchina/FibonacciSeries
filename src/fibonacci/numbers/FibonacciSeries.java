@@ -35,6 +35,8 @@ public class FibonacciSeries {
 				System.out.println("Divisible by 5 and 7:" + num);
 			}
 		}
+		
+		
 
 	}
 
