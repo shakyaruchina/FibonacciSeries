@@ -10,6 +10,7 @@ public class FibonacciSeries {
 		//Scanner scan = new Scanner(System.in);
 		System.out.println("First 40 Fibonacci Series :");
 		
+		//to find the fibonacci numbers
 		for(int i =0; i<=n; i++) {
 			a=b;
 			b=c;
@@ -19,19 +20,21 @@ public class FibonacciSeries {
 		
 		// new line
 		System.out.println("\n");
-
+		
+		//numbers divisible by 5	
 		for (int num = 0; num < n; num++) {
 			if (num % 5 == 0) {
 				System.out.println("Divisible by 5:" + num);
 			}
 		}
-
+		
+		//numbers divisible by 7	
 		for (int num = 0; num < n; num++) {
 			if (num % 7 == 0) {
 				System.out.println("Divisible by 7:" + num);
 			}
 		}
-
+		//numbers divisible by both 5 and 7
 		for (int num = 0; num < n; num++) {
 			if (num % 5 == 0 && num % 7 == 0) {
 				System.out.println("Divisible by 5 and 7:" + num);
