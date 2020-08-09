@@ -1,6 +1,6 @@
 package fibonacci.numbers;
 
-import java.util.Scanner;
+
 
 public class FibonacciSeries {
 
@@ -17,6 +17,26 @@ public class FibonacciSeries {
 			System.out.println(a+"");
 		}
 		
+		// new line
+		System.out.println("\n");
+
+		for (int num = 0; num < n; num++) {
+			if (num % 5 == 0) {
+				System.out.println("Divisible by 5:" + num);
+			}
+		}
+
+		for (int num = 0; num < n; num++) {
+			if (num % 7 == 0) {
+				System.out.println("Divisible by 7:" + num);
+			}
+		}
+
+		for (int num = 0; num < n; num++) {
+			if (num % 5 == 0 && num % 7 == 0) {
+				System.out.println("Divisible by 5 and 7:" + num);
+			}
+		}
 
 	}
 
