@@ -1,7 +1,5 @@
 package fibonacci.numbers;
 
-
-
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
@@ -17,17 +15,14 @@ public class FibonacciSeries {
 			c=a+b;
 			System.out.println(a+"");
 		}
-		
 		// new line
 		System.out.println("\n");
-		
 		//numbers divisible by 5	
 		for (int num = 0; num < n; num++) {
 			if (num % 5 == 0) {
 				System.out.println("Divisible by 5:" + num);
 			}
 		}
-		
 		//numbers divisible by 7	
 		for (int num = 0; num < n; num++) {
 			if (num % 7 == 0) {
