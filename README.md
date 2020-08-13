@@ -4,4 +4,4 @@
 * List all numbers evenly divisible by 7.
 * List all numbers evenly divisible by 5 and 7.
 
-##Write a program that calculates Fibonacci series with the user input.
+## Write a program that calculates Fibonacci series with the user input.
